@@ -1,0 +1,25 @@
+{
+  "name": "as-site-compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && npm run build:types",
+    "build:types": "tsc --emitDeclarationOnly --declaration",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@assemblyscript/wasi-shim": "^0.1.0",
+    "@blockless/sdk": "https://github.com/blocklessnetwork/sdk-assemblyscript#54ac31d4053a1eec0b3c020dbb21a0b458b96ca5",
+    "as-wasi": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0-dev.20230116"
+  }
+}
