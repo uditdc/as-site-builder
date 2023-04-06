@@ -1,18 +1,18 @@
-# as-site-compiler
+# as-site-builder
 
-as-site-compiler is a Node.js package that compiles a static site to WebAssembly, by transpiling the site's markup and assets into AssemblyScript code. It uses the @blockless/sdk for interfacing with the HTTP component.
+as-site-builder is a Node.js package that compiles a static site to WebAssembly, by transpiling the site's markup and assets into AssemblyScript code. It uses the @blockless/sdk for interfacing with the HTTP component.
 
 ## Installation
 
-To install as-site-compiler, run:
+To install as-site-builder, run:
 
 ```bash
-npm install as-site-compiler
+npm install as-site-builder
 ```
 
 ## Usage
 
-To use as-site-compiler, you can run the following commands:
+To use as-site-builder, you can run the following commands:
 
 ```bash
 npm run build    # Build the project using TypeScript
@@ -23,7 +23,7 @@ The `start` command will execute the TypeScript file src/index.ts using the ts-n
 
 ## Scripts
 
-as-site-compiler has the following scripts:
+as-site-builder has the following scripts:
 
 - build: Builds the project using TypeScript and generates type declarations using the build:types script.
 - start: Runs the project using the ts-node package.
